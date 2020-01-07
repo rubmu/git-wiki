@@ -1,7 +1,7 @@
 # (string) Title of your wiki
-title: git-wiki
-remote_theme: Drassil/git-wiki-theme
-description: Git-Wiki demo and documentation
+title: WIKI EurochemBMU
+remote_theme: rubmu/git-wiki-theme
+description: Wiki документация
 show_downloads: true
 show_wiki_pages: true
 show_wiki_pages_limit: 10
@@ -10,7 +10,7 @@ paginate_path: "/blog/page:num"
 blog_feature: true
 show_wiki_posts: true
 show_wiki_posts_limit: 5
-logo_url: http://drassil.github.io/git-wiki/assets/images/1200px-Wikipedia-logo-v2.svg_.png
+logo_url: https://rubmu.github.io/git-wiki/assets/images/1200px-Wikipedia-logo-v2.svg_.png
 google_analytics:
 git_branch: gh-pages
 use_github_wiki: false
@@ -35,13 +35,13 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "git-wiki-default"
+      layout: "git-wiki-bs-united"
  -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "git-wiki-default"
+      layout: "git-wiki-bs-united"
  -
     scope:
       path: ""
